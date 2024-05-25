@@ -207,7 +207,7 @@ input::placeholder{
     width: 90%;
     height: 180px;
     object-fit: contain;
-    border-bottom: 1px solid rgb(183, 182, 182);
+    border-bottom: 2px solid rgb(183, 182, 182);
 
 }
 .product-card h2{
