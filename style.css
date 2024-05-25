@@ -190,9 +190,9 @@ input::placeholder{
 }
 .product-card{
     width: 100%;
-    height: 300px;
+    height: 450px;
     display: flex;
-    align-items: center;
+    align-items: flex-start;
     justify-content: space-between;
     flex-direction: column;
     padding: 20px;
@@ -204,7 +204,7 @@ input::placeholder{
     font-weight: 700;
 }
 .product-card img{
-    width: 90%;
+    width: 100%;
     height: 180px;
     object-fit: contain;
     border-bottom: 1.5px solid rgb(215, 215, 215);
@@ -213,15 +213,64 @@ input::placeholder{
 .product-card h2{
     font-size: 18px;
     text-align: center;
+    margin-top: 10px;
 }
-.product-card button{
+.product-card h3{
+    font-size: 20px;
+    color: #DE2449;
+    font-weight: 650;
+    margin-bottom: 10px;
+}
+.product-details{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-evenly;
+}
+.product-details span{
+    display: flex;
+    width: 100%;
+    font-size: 15px;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+.product-details-a{
+    font-size: 15px;
+    color: rgb(161, 161, 161);
+    text-decoration: none;
+}
+.card-buttons{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 50px;
+}
+.whatsapp-button{
+    background-color:white;
+    color: #25D366;
+    border: 2px solid #25D366;
+    font-size: 14px;
+    font-weight: 700;
+    width: 110px;
+    height: 35px;
+}
+.buynow-button{
     background-color: #DE2449;
     color: white;
     border: hidden;
     font-size: 14px;
     font-weight: 700;
-    width: 120px;
-    height: 40px;
+    width: 100px;
+    height: 35px;
+}
+.whatsapp-button i{
+    margin-right: 8px;
 }
 .process-card{
     width: 100%;
