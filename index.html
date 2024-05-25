@@ -1,0 +1,559 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+</head>
+<body>
+    <header>
+        <div class="navbar-section-one">
+            <div class="navbar-links-one">
+                <a href="">Home</a>
+                <a href="">Shop</a>
+                <a href="">Contact us</a>
+                <a href="">|</a>
+                <a href="">mail@almubashir.ae</a>
+                <a href="">+971 98 765 4321</a>
+                <a href="">+971 98 765 4321</a>
+
+            </div>
+            <div class="navbar-links-two">
+                <a href=""><i class="fa-regular fa-user"></i>Login/Register</a>
+                <a href="">|</a>
+                <a href=""><i class="fa-regular fa-heart"></i>Wishlist</a>
+
+            </div>
+
+        </div>
+        <div class="navbar-section-two">
+            <div class="navbar-logo">
+            <img src="img/mubashir-logo.png" alt="">
+        </div>
+        <div class="navbar-search-bar">
+            <input type="search" placeholder="Search for products">
+            <i class="fa-solid fa-magnifying-glass"></i>
+        </div>
+        <div class="for-support">
+            <img src="img/customer-care.png" alt="">
+            <a href="">
+                For Support <br>
+                <span>+971 98 765 4321</span>
+            </a>
+        </div>
+
+        </div>
+        <div class="navbar-section-one-mobile">
+            <a href="">+971 98 765 4321</a>
+            <a href="">mail@almubashir.ae</a>
+        </div>
+        <div class="navbar-section-two-mobile">
+            <button id="sidebarToggle"><i class="fa-solid fa-bars"></i></button>
+            <img src="img/logo.png" alt="">
+            <a href="" class="login-menu"><i class="fa-regular fa-user"></i></a>
+            <a href="" class="login-menu"><i class="fa-solid fa-cart-shopping"></i></a>
+            <div id="sidebar" class="sidebar">
+                <div class="logo-sidebar mb-3">
+                    <img src="img/logo.png" alt="">
+                </div>
+                <div class="sidebar-links mb-3">
+                <a href=""><i class="fa-regular fa-user"></i>Login/Register</a>
+                <a href=""><i class="fa-regular fa-heart"></i>Wishlist</a>
+            </div>
+            <div class="sidebar-links-2 mb-4">
+                <a href="">Home</a>
+                <a href="">Shop</a>
+                <a href="">About Us</a>
+                <a href="">Contact us</a>
+            </div>
+            <div class="sidebar-links-3">
+                <a href=""><i class="fa-solid fa-phone"></i>+971 98 765 4321</a>
+                <a href=""><i class="fa-solid fa-envelope"></i>mail@almubashir.ae</a>
+            </div>
+            </div>
+        </div>
+        <div class="navbar-search-mobile">
+            <div class="navbar-search-mobile-inner">
+            <input type="search" placeholder="Search for products">
+            <i class="fa-solid fa-magnifying-glass"></i>
+        </div>
+        </div>
+    </header>
+    <!-- <div class="home-section-main">
+        <div class="home-section-main-img">
+            <img src="img/life-of-car-spare-part.webp" alt="">
+
+        </div>
+    </div> -->
+    <!-- <----------------------video section------------------------>
+    <div class="bg-video-container">
+        <video class="bg-video" autoplay muted loop>
+         <source src="img/bg-video.mp4"/>
+         </video>
+        </div>
+        <!-- <----------------------video section------------------------>
+    <div class="container pt-5 category-section px-3">
+        <h1 class="mb-3">SHOP BY <span> CATEGORY</span></h1>
+        <div class="row gx-3 gy-3">
+            <div class="col-md-2">
+                <div class="category-card">
+                    <img src="img/refrigerant.png" alt="">
+                    <span>REFRIGERANTS</span>
+
+                </div>
+
+            </div>
+            <div class="col-md-2">
+                <div class="category-card">
+                    <img src="img/fittings.png" alt="">
+                    <span>FITTINGS</span>
+
+                </div>
+            </div>
+            <div class="col-md-2">
+                <div class="category-card">
+                    <img src="img/gauge.png" alt="">
+                    <span>GAUGES</span>
+
+                </div>
+            </div>
+            <div class="col-md-2">
+                <div class="category-card">
+                    <img src="img/wires.png" alt="">
+                    <span>WIRES</span>
+
+                </div>
+            </div>
+            <div class="col-md-2">
+                <div class="category-card">
+                    <img src="img/engine-oil.png" alt="">
+                    <span>OILS</span>
+
+                </div>
+            </div>
+            <div class="col-md-2">
+                <div class="category-card">
+                    <img src="img/menu.png" alt="">
+                    <span>VIEW ALL CATEGORIES</span>
+
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <div class="container mb-4 category-section mt-4">
+        <h1 class="mb-5">SHOP BY <span> BRANDS</span></h1>
+        <div class="row row-cols-2 gy-3 row-cols-lg-5 g-2 g-lg-3">
+          <div class="col-md-2">
+            <div class="brand-card">
+                <img src="img/samsung-logo.png" alt="">
+            </div>
+          </div>
+          <div class="col-md-2">
+            <div class="brand-card">
+                <img src="img/blue-star.png" alt="">
+            </div>
+          </div>
+          <div class="col-md-2">
+            <div class="brand-card">
+                <img src="img/Makita-logo.png" alt="">
+            </div>
+          </div>
+          <div class="col-md-2">
+            <div class="brand-card">
+                <img src="img/wikai-logo.png" alt="">
+            </div>
+          </div>
+          <div class="col-md-2">
+            <div class="brand-card">
+                <img src="img/hunter-logo.png" alt="">
+            </div>
+          </div>
+          <div class="col-md-2">
+            <div class="brand-card">
+                <img src="img/uniweld-logo.png" alt="">
+            </div>
+          </div>
+          <div class="col-md-2">
+            <div class="brand-card">
+                <img src="img/elco-logo.webp" alt="">
+            </div>
+          </div>
+          <div class="col-md-2">
+            <div class="brand-card">
+                <img src="img/totaline-logo.png" alt="">
+            </div>
+          </div>
+          <div class="col-md-2">
+            <div class="brand-card">
+                <img src="img/hioki-logo.jpg" alt="">
+            </div>
+          </div>
+          <div class="col-md-2">
+            <div class="brand-card">
+                <img src="img/maksal-logo.jpg" alt="">
+            </div>
+          </div>
+          <div class="col-md-2">
+            <div class="brand-card">
+                <img src="img/ao-smith.webp" alt="">
+            </div>
+          </div>
+          <div class="col-md-2">
+            <div class="brand-card">
+                <img src="img/bitzer-logo.png" alt="">
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="container mt-5 mb-5 product-section px-3">
+        <h1 class="text-center mb-4">ELECTRICAL EQUIPMENTS</h1>
+        <div class="row gx-3 gy-3">
+            <div class="col-md-3">
+                <div class="product-card">
+                    <img src="img/e-1.png" alt="">
+                    <h2>Circuit Breaker</h2>
+                    <a href=""><button>View More</button></a>
+                </div>
+
+            </div>
+            <div class="col-md-3">
+                <div class="product-card">
+                    <img src="img/e-2.jpg" alt="">
+                    <h2>Fuse Box</h2>
+                    <a href=""><button>View More</button></a>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="product-card">
+                    <img src="img/e-3.png" alt="">
+                    <h2>Cable Wires</h2>
+                    <a href=""><button>View More</button></a>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="product-card">
+                    <img src="img/e-4.webp" alt="">
+                    <h2>Selector Switch</h2>
+                    <a href=""><button>View More</button></a>
+                </div>
+            </div>
+
+        </div>
+      </div>
+      <div class="container mt-5 mb-5 product-section px-3">
+        <h1 class="text-center mb-4">WELDING AND CUTTING TOOLS</h1>
+        <div class="row gx-3 gy-3">
+            <div class="col-md-3">
+                <div class="product-card">
+                    <img src="img/w-3.png" alt="">
+                    <h2>Welding Machine</h2>
+                    <a href=""><button>View More</button></a>
+                </div>
+
+            </div>
+            <div class="col-md-3">
+                <div class="product-card">
+                    <img src="img/w-2.png" alt="">
+                    <h2>Welding Glove</h2>
+                    <a href=""><button>View More</button></a>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="product-card">
+                    <img src="img/w-1.png" alt="">
+                    <h2>Welding Helmet</h2>
+                    <a href=""><button>View More</button></a>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="product-card">
+                    <img src="img/w-4.png" alt="">
+                    <h2>Grinding Machine</h2>
+                    <a href=""><button>View More</button></a>
+                </div>
+            </div>
+
+        </div>
+      </div>
+
+      <div class="how-it-works pt-4 pb-4">
+        <h1 class="text-center mb-2 mt-3">HOW IT WORKS</h1>
+        <p class="text-center mb-5">Simply follow the 3 steps below to request your part</p>
+        <div class="container px-3">
+            <div class="row gx-3 gy-3">
+                <div class="col-md-4">
+                    <div class="process-card p-2">
+                        <div class="process-card-image">
+                            <img src="img/list.png" alt="">
+
+                        </div>
+                        <h3 class="mb-3 mt-3">Enter your details</h3>
+                        <p>Let us know the details of your vehicle, the parts you require, and how best to get in touch with you.
+                        </p>
+
+                    </div>
+
+                </div>
+                <div class="col-md-4">
+                    <div class="process-card p-2">
+                        <div class="process-card-image">
+                            <img src="img/high-quality.png" alt="">
+
+                        </div>
+                        <h3 class="mb-3 mt-3">Get your quotes</h3>
+                        <p>We'll search thousands of parts get in touch with the best quality part and price.
+                        </p>
+
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="process-card p-2">
+                        <div class="process-card-image">
+                            <img src="img/delivery-truck.png" alt="">
+
+                        </div>
+                        <h3 class="mb-3 mt-3">Order your part</h3>
+                        <p>With our flexible payment and delivery options, your part will be will be with you in no time!
+                        </p>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+      </div>
+      <div class="container mt-5 mb-5 product-section px-3">
+        <h1 class="text-center mb-4">COPPER PIPE AND FITTINGS</h1>
+        <div class="row gx-3 gy-3">
+            <div class="col-md-3">
+                <div class="product-card">
+                    <img src="img/p-1.jpeg" alt="">
+                    <h2>Female Elbow</h2>
+                    <a href=""><button>View More</button></a>
+                </div>
+
+            </div>
+            <div class="col-md-3">
+                <div class="product-card">
+                    <img src="img/p-2.jpg" alt="">
+                    <h2>Hex Nipple</h2>
+                    <a href=""><button>View More</button></a>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="product-card">
+                    <img src="img/p-3.webp" alt="">
+                    <h2>Hex Pipe Plug</h2>
+                    <a href=""><button>View More</button></a>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="product-card">
+                    <img src="img/p-4.jpg" alt="">
+                    <h2>Female Pipe Tee</h2>
+                    <a href=""><button>View More</button></a>
+                </div>
+            </div>
+
+        </div>
+      </div>
+
+      <div class="how-it-works pt-4 pb-4">
+        <h1 class="text-center mb-2 mt-3">KEY BENEFITS</h1>
+        <p class="text-center mb-5">Our benefits will change the way you buy parts.Order with confidence!</p>
+        <div class="container px-3">
+            <div class="row gx-4 gy-3">
+                <div class="col-md-4">
+                    <div class="benefits-card p-5">
+                         <img src="img/warranty.png" alt="">
+                        <h3 class="mb-3 mt-3">Warranty</h3>
+                        <p>Selectusedparts offers a limited warranty on all items sold!
+                        </p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="benefits-card p-5">
+                        <img src="img/return.png" alt="">
+                        <h3 class="mb-3 mt-3">Easy Returns</h3>
+                        <p>Ordered the wrong part? Enjoy peace of mind with easy returns!
+                        </p>
+
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="benefits-card p-5">
+                        <img src="img/fast-delivery.png" alt="">
+                        <h3 class="mb-3 mt-3">Fast Delivery</h3>
+                        <p>Get the parts you need when you need them at ur door step!
+                        </p>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+      </div>
+      <section class="service-area pt-3 pb-3 style-2 pt-45 pb-15 black-bg">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4 col-md-6">
+                    <div class="single-service-box mb-30 wow fadeInUp" data-wow-delay=".3s">
+                        <div class="service-icon">
+                            <i class="fa-solid fa-plane-departure"></i>
+                        </div>
+                        <div class="service-text">
+                            <h6>free shipping worldwide</h6>
+                            <span>On order over $150</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="single-service-box mb-30 wow fadeInUp" data-wow-delay=".5s">
+                        <div class="service-icon">
+                            <i class="fa-solid fa-headset"></i>
+                        </div>
+                        <div class="service-text">
+                            <h6>24/7 custome r service</h6>
+                            <span>Call us 24/7 at 000 - 123 - 456</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="single-service-box mb-30 wow fadeInUp" data-wow-delay=".7s">
+                        <div class="service-icon">
+                            <i class="fa-solid fa-rotate-left"></i>
+                        </div>
+                        <div class="service-text">
+                            <h6>money back guaratee!</h6>
+                            <span>Send within 30 days</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+      <footer class="pt-5">
+        <!-- Start Footer Area -->
+            <section class="footer-area style-2 pt-40 pb-10 black-bg">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-3 col-md-6">
+                            <div class="footer-widget mb-30">
+                                <div class="footer-logo">
+                                    <a href="index.html"><img src="assets/img/site-logo.png" alt=""></a>
+                                </div>
+                                <div class="footer-dec">
+                                    <p class="no-margin">DISCRIPTION HERE .</p>
+                                </div>
+                                <ul class="footer-social-icon">
+                                    <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                                    <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                                    <li><a href="#"><i class="fab fa-google-plus-g"></i></a></li>
+                                    <li><a href="#"><i class="fab fa-youtube"></i></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-6">
+                            <div class="footer-widget mb-30">
+                                <div class="widget-title">
+                                    <h6>contact us</h6>
+                                </div>
+                                <div class="footer-address">
+                                    <ul>
+                                        <li><i class="fas fa-map-marker-alt"></i><span>Address </span></li>
+                                        <li><i class="fas fa-phone"></i><span><a href="tel:01234567890"> 6238409990</a></span></li>
+                                        <li><i class="far fa-envelope"></i><span>Email: <a href="mailto:admin@bootexperts.com">almubashir@.com</a></span></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-2 col-md-4">
+                            <div class="footer-widget mb-30">
+                                <div class="widget-title">
+                                    <h6>information</h6>
+                                </div>
+                                <ul class="footer-menu">
+                                    <li><a href="#">About Us</a></li>
+                                    <li><a href="#">Contact Us</a></li>
+                                    <li><a href="#">News</a></li>
+                                    <li><a href="#">Store</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-lg-2 col-md-4">
+                            <div class="footer-widget mb-30">
+                                <div class="widget-title">
+                                    <h6>collections</h6>
+                                </div>
+                                <ul class="footer-menu">
+                                    <li><a href="#">oils</a></li>
+                                    <li><a href="#">motors</a></li>
+                                    <li><a href="#">ac units</a></li>
+                                    <li><a href="#">insulation</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-lg-2 col-md-4">
+                            <div class="footer-widget mb-30">
+                                <div class="widget-title">
+                                    <h6>my account</h6>
+                                </div>
+                                <ul class="footer-menu">
+                                    <li><a href="#">my account</a></li>
+                                    <li><a href="#">Order History</a></li>
+                                    <li><a href="#">Wish List</a></li>
+                                    <li><a href="#">News Letter</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        <!-- End Footer Area -->
+        <!-- Copyright Area -->
+        <div class="section pt-4 pb-4 copyright-area style-2 pt-30 pb-10 black-bg">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-md-6 text-center text-md-left ">
+                        <div class="copyright-text mb-20">
+                            <address class="text-center">Copyright &copy;Al mubashir</a>  All Rights Reserved</address>
+                        </div>
+                    </div>
+                    <div class="col-md-6 text-center text-md-right mb-20">
+                        <div class="payment-history">
+                            <a href="#"><img src="img/payment.png" alt=""></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script>
+        document.addEventListener('DOMContentLoaded', (event) => {
+            const sidebarToggle = document.getElementById('sidebarToggle');
+            const sidebar = document.getElementById('sidebar');
+        
+            sidebarToggle.addEventListener('click', (e) => {
+                e.stopPropagation(); 
+                sidebar.classList.toggle('open');
+            });
+        
+            document.addEventListener('click', (e) => {
+                if (sidebar.classList.contains('open') && !sidebar.contains(e.target)) {
+                    sidebar.classList.remove('open');
+                }
+            });
+        
+            sidebar.addEventListener('click', (e) => {
+                e.stopPropagation(); 
+            });
+        });
+        
+        
+            </script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+</body>
+</html>
